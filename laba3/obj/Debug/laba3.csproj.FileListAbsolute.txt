@@ -8,3 +8,14 @@ C:\Study\C#\laba3\obj\Debug\laba3.csproj.GenerateResource.cache
 C:\Study\C#\laba3\obj\Debug\laba3.csproj.CoreCompileInputs.cache
 C:\Study\C#\laba3\obj\Debug\laba3.exe
 C:\Study\C#\laba3\obj\Debug\laba3.pdb
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\bin\Debug\laba3.exe.config
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\bin\Debug\laba3.exe
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\bin\Debug\laba3.pdb
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.csproj.AssemblyReference.cache
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.csproj.SuggestedBindingRedirects.cache
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.Properties.Resources.resources
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.csproj.GenerateResource.cache
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.csproj.CoreCompileInputs.cache
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.exe
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.pdb
+C:\Users\stud\Source\Repos\Tsustsugami\lab3C-A\laba3\obj\Debug\laba3.Form1.resources

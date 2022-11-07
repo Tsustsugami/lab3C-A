@@ -48,7 +48,7 @@ namespace laba3
         }
         public static Volume operator *(Volume instance, double number)
         {
-            return new Volume(instance.value * number, instance.type); ;
+            return new Volume(instance.value * number, instance.type); 
         }
 
         public static Volume operator *(double number, Volume instance)
@@ -58,7 +58,7 @@ namespace laba3
 
         public static Volume operator -(Volume instance, double number)
         {
-            return new Volume(instance.value - number, instance.type); ;
+            return new Volume(instance.value - number, instance.type); 
         }
 
         public static Volume operator -(double number, Volume instance)
@@ -66,10 +66,9 @@ namespace laba3
             return instance - number;
         }
 
-        // деление
         public static Volume operator /(Volume instance, double number)
         {
-            return new Volume(instance.value / number, instance.type); ;
+            return new Volume(instance.value / number, instance.type);
         }
 
         public static Volume operator /(double number, Volume instance)
@@ -105,17 +104,34 @@ namespace laba3
                         newValue = this.value;
                         break;
                     case MeasureType.M3:
-                        newValue = this.value / 1000; 
-                        break;
-                    case MeasureType.ML:
                         newValue = this.value * 1000; 
                         break;
+                    case MeasureType.ML:
+                        newValue = this.value / 1000; 
+                        break;
                     case MeasureType.bar:
-                        newValue = this.value * 158.99;
+                        newValue = this.value / 158.99;
                         break;
                 }
             }
             return new Volume(newValue, newType);
+        }
+        public static Volume operator +(Volume instance1, Volume instance2)
+        {
+            return instance1 + instance2.To(instance1.type).value;
+        }
+
+        public static Volume operator -(Volume instance1, Volume instance2)
+        {
+            return instance1 - instance2.To(instance1.type).value;
+        }
+        public static Volume operator *(Volume instance1, Volume instance2)
+        {
+            return instance1 * instance2.To(instance1.type).value;
+        }
+        public static Volume operator /(Volume instance1, Volume instance2)
+        {
+            return instance1 / instance2.To(instance1.type).value;
         }
     }
 }

@@ -28,13 +28,124 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.Operation = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textResult = new System.Windows.Forms.TextBox();
+            this.cmbResultType = new System.Windows.Forms.ComboBox();
+            this.cmbSecondType = new System.Windows.Forms.ComboBox();
+            this.cmbFirstType = new System.Windows.Forms.ComboBox();
+            this.SuspendLayout();
+            // 
+            // Operation
+            // 
+            this.Operation.FormattingEnabled = true;
+            this.Operation.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "/",
+            "*",
+            "Сравнение",
+            "Умножение на число"});
+            this.Operation.Location = new System.Drawing.Point(65, 80);
+            this.Operation.Name = "Operation";
+            this.Operation.Size = new System.Drawing.Size(18, 21);
+            this.Operation.TabIndex = 0;
+            this.Operation.SelectedIndexChanged += new System.EventHandler(this.Operation_SelectedIndexChanged_1);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(89, 64);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(89, 90);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // textResult
+            // 
+            this.textResult.Location = new System.Drawing.Point(65, 116);
+            this.textResult.Name = "textResult";
+            this.textResult.Size = new System.Drawing.Size(124, 20);
+            this.textResult.TabIndex = 3;
+            // 
+            // cmbResultType
+            // 
+            this.cmbResultType.FormattingEnabled = true;
+            this.cmbResultType.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "/",
+            "="});
+            this.cmbResultType.Location = new System.Drawing.Point(195, 117);
+            this.cmbResultType.Name = "cmbResultType";
+            this.cmbResultType.Size = new System.Drawing.Size(57, 21);
+            this.cmbResultType.TabIndex = 4;
+            this.cmbResultType.SelectedIndexChanged += new System.EventHandler(this.cmbResultType_SelectedIndexChanged);
+            // 
+            // cmbSecondType
+            // 
+            this.cmbSecondType.FormattingEnabled = true;
+            this.cmbSecondType.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "/",
+            "="});
+            this.cmbSecondType.Location = new System.Drawing.Point(195, 90);
+            this.cmbSecondType.Name = "cmbSecondType";
+            this.cmbSecondType.Size = new System.Drawing.Size(57, 21);
+            this.cmbSecondType.TabIndex = 5;
+            this.cmbSecondType.SelectedIndexChanged += new System.EventHandler(this.cmbSecondType_SelectedIndexChanged);
+            // 
+            // cmbFirstType
+            // 
+            this.cmbFirstType.FormattingEnabled = true;
+            this.cmbFirstType.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "/",
+            "="});
+            this.cmbFirstType.Location = new System.Drawing.Point(195, 64);
+            this.cmbFirstType.Name = "cmbFirstType";
+            this.cmbFirstType.Size = new System.Drawing.Size(57, 21);
+            this.cmbFirstType.TabIndex = 6;
+            this.cmbFirstType.SelectedIndexChanged += new System.EventHandler(this.cmbFirstType_SelectedIndexChanged);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmbFirstType);
+            this.Controls.Add(this.cmbSecondType);
+            this.Controls.Add(this.cmbResultType);
+            this.Controls.Add(this.textResult);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Operation);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ComboBox Operation;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textResult;
+        private System.Windows.Forms.ComboBox cmbResultType;
+        private System.Windows.Forms.ComboBox cmbSecondType;
+        private System.Windows.Forms.ComboBox cmbFirstType;
     }
 }
 

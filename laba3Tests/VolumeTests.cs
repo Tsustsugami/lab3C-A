@@ -56,7 +56,7 @@ namespace laba3.Tests
             Assert.AreEqual("1 л.", length.Verbose());
         }
         [TestMethod()]
-        public void MeterToAnyTest()
+        public void litrToAnyTest()
         {
             Volume volume;
 
@@ -68,6 +68,18 @@ namespace laba3.Tests
 
             volume = new Volume(100 * 158.99, MeasureType.l);
             Assert.AreEqual("100 баррель", volume.To(MeasureType.bar).Verbose());
+        }
+        [TestMethod()]
+        public void AddSubM3MetersTest()
+        {
+            var l = new Volume(100, MeasureType.l);
+            var m3 = new Volume(1, MeasureType.M3);
+
+            Assert.AreEqual("1100 л.", (l + m3).Verbose());
+            Assert.AreEqual("1,1 М3.", (m3 + l).Verbose());
+
+            Assert.AreEqual("0,9 М3.", (m3 - l).Verbose());
+            Assert.AreEqual("-900 л.", (l - m3).Verbose());
         }
     }
 }
