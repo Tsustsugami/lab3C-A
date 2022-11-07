@@ -1,0 +1,15 @@
+C:\Study\C#\Lab1zad3ProgTehnologi\bin\Debug\net6.0\Lab1zad3ProgTehnologi.exe
+C:\Study\C#\Lab1zad3ProgTehnologi\bin\Debug\net6.0\Lab1zad3ProgTehnologi.deps.json
+C:\Study\C#\Lab1zad3ProgTehnologi\bin\Debug\net6.0\Lab1zad3ProgTehnologi.runtimeconfig.json
+C:\Study\C#\Lab1zad3ProgTehnologi\bin\Debug\net6.0\Lab1zad3ProgTehnologi.dll
+C:\Study\C#\Lab1zad3ProgTehnologi\bin\Debug\net6.0\Lab1zad3ProgTehnologi.pdb
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.csproj.AssemblyReference.cache
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.AssemblyInfoInputs.cache
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.AssemblyInfo.cs
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.csproj.CoreCompileInputs.cache
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.dll
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\refint\Lab1zad3ProgTehnologi.dll
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.pdb
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\Lab1zad3ProgTehnologi.genruntimeconfig.cache
+C:\Study\C#\Lab1zad3ProgTehnologi\obj\Debug\net6.0\ref\Lab1zad3ProgTehnologi.dll

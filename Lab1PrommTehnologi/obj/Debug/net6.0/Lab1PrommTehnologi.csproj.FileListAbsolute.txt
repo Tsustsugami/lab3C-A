@@ -1,0 +1,15 @@
+C:\Study\C#\Lab1PrommTehnologi\bin\Debug\net6.0\Lab1PrommTehnologi.exe
+C:\Study\C#\Lab1PrommTehnologi\bin\Debug\net6.0\Lab1PrommTehnologi.deps.json
+C:\Study\C#\Lab1PrommTehnologi\bin\Debug\net6.0\Lab1PrommTehnologi.runtimeconfig.json
+C:\Study\C#\Lab1PrommTehnologi\bin\Debug\net6.0\Lab1PrommTehnologi.dll
+C:\Study\C#\Lab1PrommTehnologi\bin\Debug\net6.0\Lab1PrommTehnologi.pdb
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.csproj.AssemblyReference.cache
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.AssemblyInfoInputs.cache
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.AssemblyInfo.cs
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.csproj.CoreCompileInputs.cache
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.dll
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\refint\Lab1PrommTehnologi.dll
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.pdb
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\Lab1PrommTehnologi.genruntimeconfig.cache
+C:\Study\C#\Lab1PrommTehnologi\obj\Debug\net6.0\ref\Lab1PrommTehnologi.dll
