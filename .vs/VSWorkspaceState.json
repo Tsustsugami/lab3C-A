@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\laba3",
+    "\\laba3Tests"
   ],
+  "SelectedNode": "\\laba3Tests\\VolumeTests.cs",
   "PreviewInSolutionExplorer": false
 }
