@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace laba3
 {
     public enum MeasureType { l, M3, ML, bar };
-    public class  Volume
+    public class Volume
     {
         private double value;
         private MeasureType type;
@@ -48,7 +48,7 @@ namespace laba3
         }
         public static Volume operator *(Volume instance, double number)
         {
-            return new Volume(instance.value * number, instance.type); 
+            return new Volume(instance.value * number, instance.type);
         }
 
         public static Volume operator *(double number, Volume instance)
@@ -58,7 +58,7 @@ namespace laba3
 
         public static Volume operator -(Volume instance, double number)
         {
-            return new Volume(instance.value - number, instance.type); 
+            return new Volume(instance.value - number, instance.type);
         }
 
         public static Volume operator -(double number, Volume instance)
@@ -75,6 +75,18 @@ namespace laba3
         {
             return instance / number;
         }
+        public static Volume comparison(Volume instance, Volume instance2)
+        {
+            if (instance.value>instance2.To(instance.type).value)
+            {
+                return instance;
+            }
+            else
+            {
+                return instance2;
+            }
+        }
+
         public Volume To(MeasureType newType)
         {
             var newValue = this.value;

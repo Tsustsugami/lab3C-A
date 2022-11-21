@@ -45,11 +45,10 @@
             "-",
             "/",
             "*",
-            "Сравнение",
-            "Умножение на число"});
-            this.Operation.Location = new System.Drawing.Point(65, 80);
+            "Сравнение"});
+            this.Operation.Location = new System.Drawing.Point(12, 80);
             this.Operation.Name = "Operation";
-            this.Operation.Size = new System.Drawing.Size(18, 21);
+            this.Operation.Size = new System.Drawing.Size(71, 21);
             this.Operation.TabIndex = 0;
             this.Operation.SelectedIndexChanged += new System.EventHandler(this.Operation_SelectedIndexChanged_1);
             // 

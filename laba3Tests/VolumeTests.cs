@@ -81,5 +81,6 @@ namespace laba3.Tests
             Assert.AreEqual("0,9 М3.", (m3 - l).Verbose());
             Assert.AreEqual("-900 л.", (l - m3).Verbose());
         }
+
     }
 }

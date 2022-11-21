@@ -86,6 +86,9 @@ namespace laba3
                     case "/":
                         sumLength = firstLength / secondLength;
                         break;
+                    case "Сравнение":
+                        sumLength=Volume.comparison(firstLength, secondLength);
+                        break;
                     default:
                         sumLength = new Volume (0, MeasureType.l);
                         break;
