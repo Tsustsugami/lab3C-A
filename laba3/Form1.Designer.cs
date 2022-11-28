@@ -46,7 +46,7 @@
             "/",
             "*",
             "Сравнение"});
-            this.Operation.Location = new System.Drawing.Point(12, 80);
+            this.Operation.Location = new System.Drawing.Point(2, 20);
             this.Operation.Name = "Operation";
             this.Operation.Size = new System.Drawing.Size(71, 21);
             this.Operation.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(89, 64);
+            this.textBox1.Location = new System.Drawing.Point(79, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(89, 90);
+            this.textBox2.Location = new System.Drawing.Point(79, 30);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // textResult
             // 
-            this.textResult.Location = new System.Drawing.Point(65, 116);
+            this.textResult.Location = new System.Drawing.Point(55, 56);
             this.textResult.Name = "textResult";
             this.textResult.Size = new System.Drawing.Size(124, 20);
             this.textResult.TabIndex = 3;
@@ -83,7 +83,7 @@
             "-",
             "/",
             "="});
-            this.cmbResultType.Location = new System.Drawing.Point(195, 117);
+            this.cmbResultType.Location = new System.Drawing.Point(185, 57);
             this.cmbResultType.Name = "cmbResultType";
             this.cmbResultType.Size = new System.Drawing.Size(57, 21);
             this.cmbResultType.TabIndex = 4;
@@ -97,7 +97,7 @@
             "-",
             "/",
             "="});
-            this.cmbSecondType.Location = new System.Drawing.Point(195, 90);
+            this.cmbSecondType.Location = new System.Drawing.Point(185, 30);
             this.cmbSecondType.Name = "cmbSecondType";
             this.cmbSecondType.Size = new System.Drawing.Size(57, 21);
             this.cmbSecondType.TabIndex = 5;
@@ -111,7 +111,7 @@
             "-",
             "/",
             "="});
-            this.cmbFirstType.Location = new System.Drawing.Point(195, 64);
+            this.cmbFirstType.Location = new System.Drawing.Point(185, 4);
             this.cmbFirstType.Name = "cmbFirstType";
             this.cmbFirstType.Size = new System.Drawing.Size(57, 21);
             this.cmbFirstType.TabIndex = 6;
@@ -121,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(250, 82);
             this.Controls.Add(this.cmbFirstType);
             this.Controls.Add(this.cmbSecondType);
             this.Controls.Add(this.cmbResultType);
