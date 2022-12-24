@@ -122,5 +122,6 @@ namespace laba3
         {
             Calculate();
         }
+
     }
 }

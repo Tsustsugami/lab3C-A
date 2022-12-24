@@ -145,6 +145,16 @@ namespace laba3
         {
             return instance1 / instance2.To(instance1.type).value;
         }
+        public override bool Equals(object objectiv)
+        {
+            var  objectComparing = objectiv as Volume;
+            if (objectComparing == null)
+            {
+                return false;
+            }
+            objectComparing = objectComparing.To(this.type);
+            return (this.value == objectComparing.value) && (this.type == objectComparing.type);
+        }
     }
 }
 

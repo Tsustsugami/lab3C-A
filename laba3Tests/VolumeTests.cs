@@ -86,8 +86,8 @@ namespace laba3.Tests
         {
             var l = new Volume(1, MeasureType.l);
             var ml = new Volume(1001, MeasureType.ML);
-
-            Assert.AreEqual("1001 м.л.", Volume.comparison(l,ml).Verbose());
+            var answer =new Volume(1001, MeasureType.ML);
+            Assert.AreEqual(true, answer.Equals(Volume.comparison(l,ml)));
         }
     }
 }
